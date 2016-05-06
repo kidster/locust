@@ -82,6 +82,5 @@ class KeystoneTaskSet(TaskSet):
 
 class KeystoneRevocationTest(HttpLocust):
     task_set = KeystoneTaskSet
-    host = 'http://10.190.237.41:8000'
     min_wait=1000
     max_wait=1000

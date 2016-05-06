@@ -5,4 +5,4 @@ Setup:
 pip install locustio
 
 Run:
-locust -f locustfile.py --num-request=2500
+locust -f locustfile.py --host=<host_address> --num-request=2500
