@@ -70,7 +70,7 @@ class KeystoneTaskSet(TaskSet):
         self.client.delete(TOKEN_PATH, headers=headers)
 
     @task(1)
-    def increate_revocation_records(self):
+    def increase_revocation_records(self):
         headers = copy.deepcopy(HEADERS)
 
         for i in range(100):
