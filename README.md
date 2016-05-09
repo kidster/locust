@@ -21,7 +21,7 @@ Install locust package::
 Run
 ---
 
-The environment variables ADMIN_USER, ADMIN_PASSWORD, ADMIN_DOMAIN_NAME, ADMIN_DOMAIN_ID will need to be set in order to create the test data in Keystone.
+The environment variables ADMIN_USER, ADMIN_PASSWORD, ADMIN_DOMAIN_NAME, and ADMIN_DOMAIN_ID will need to be set in order to create the test data in Keystone.
 
 The following example will generate 1000+ revocation events.
 Run example:
