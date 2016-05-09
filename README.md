@@ -1,7 +1,7 @@
 Keystone performance test for revocation events
 ===============================================
 
-Performance test script for Keystone using locust to test revocation events
+Locust script to test Keystone's performance as revocation events increase.
 
 The KeystoneTaskSet tasks
 -------------------------
@@ -17,6 +17,9 @@ Setup
 Install locust package::
 
     pip install locustio
+    
+Run
+---
 
 The environment variables ADMIN_USER, ADMIN_PASSWORD, ADMIN_DOMAIN_NAME, ADMIN_DOMAIN_ID will need to be set in order to create the test data in Keystone.
 
