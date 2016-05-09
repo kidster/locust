@@ -3,11 +3,16 @@ Keystone performance test for revocation events
 
 Locust script to test Keystone's performance as revocation events increase.
 
+On start
+--------
+
+The on_start method in locust creates user 'test_user' in order to authenticate, validate, and revoke his tokens.
+
 The KeystoneTaskSet tasks
 -------------------------
 
 1. **start** Runs twices as much as Task 'increase_revocation_records'.
-   - Authenticates -> Validates(x10) -> revoke token
+   - Authenticates  -> Validates(x10) -> revoke token
 2. **increase_revocation_records**
    - Gradually increases the number of revocation events in Keystone by authenticating the 'test_user' and revoking its token. (x100)
 
