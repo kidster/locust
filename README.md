@@ -22,10 +22,10 @@ The environment variables ADMIN_USER, ADMIN_PASSWORD, ADMIN_DOMAIN_NAME, ADMIN_D
 
 The following example will generate 1000+ revocation events.
 Run example:
-- export ADMIN_USER=admin
-- export ADMIN_PASSWORD=admin
-- export ADMIN_DOMAIN_NAME=Default
-- export ADMIN_PROJECT_ID=<project_id>
+- export ADMIN_USER=``admin_username``
+- export ADMIN_PASSWORD=``admin_password``
+- export ADMIN_DOMAIN_NAME=``admin_domain_name``
+- export ADMIN_PROJECT_ID=``admin_project_id``
 
 locust -f locustfile.py --host=http://127.0.0.1 --num-request=2500
 
