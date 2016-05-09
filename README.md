@@ -35,7 +35,7 @@ Run example:
 - export ADMIN_DOMAIN_NAME=``admin_domain_name``
 - export ADMIN_PROJECT_ID=``admin_project_id``
 
-locust -f locustfile.py --host=http://127.0.0.1 --num-request=2500
+``locust -f locustfile.py --host=http://127.0.0.1 --num-request=2500``
 
 
 Results
