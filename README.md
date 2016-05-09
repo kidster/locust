@@ -25,7 +25,7 @@ Run example:
 - export ADMIN_USER=admin
 - export ADMIN_PASSWORD=admin
 - export ADMIN_DOMAIN_NAME=Default
-- export ADMIN_PROJECT_ID=a9538f8a717f4215a90c9f41220499cb
+- export ADMIN_PROJECT_ID=<project_id>
 
 locust -f locustfile.py --host=http://127.0.0.1 --num-request=2500
 
