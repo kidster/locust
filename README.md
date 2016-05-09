@@ -37,6 +37,19 @@ Run example:
 
 ``locust -f locustfile.py --host=http://127.0.0.1 --num-request=2500``
 
+Keystone configuration
+----------------------
+
+Set global cache to true and enabled all region caching.
+
+[cache]
+backend = oslo_cache.memcache_pool
+enabled = true
+memcache_servers = 127.0.0.1:11211
+
+[token]
+provider = fernet
+
 
 Results
 -------
