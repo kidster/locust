@@ -32,3 +32,7 @@ Run example:
 
 locust -f locustfile.py --host=http://127.0.0.1 --num-request=2500
 
+
+Results
+-------
+*PDF: [`https://www.docdroid.net/yNvics9/keystonerevocationeventsperfresults.pdf.html`](https://www.docdroid.net/yNvics9/keystonerevocationeventsperfresults.pdf.html)*
