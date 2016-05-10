@@ -1,7 +1,7 @@
 Keystone performance test for revocation events
 ===============================================
 
-Simple locust script to test Keystone's performance as revocation events increase. This script is meant to be run with a clean instance of keystone.
+Simple locust script to test Keystone's performance as revocation events increase. This script is meant to be run with a clean instances of mysql and memcache using fernet tokens.
 
 On start
 --------
