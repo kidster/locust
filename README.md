@@ -35,7 +35,7 @@ Run example:
 - export ADMIN_DOMAIN_NAME=``admin_domain_name``
 - export ADMIN_PROJECT_ID=``admin_project_id``
 
-``locust -f locustfile.py -c 1 -r 1 --host=http://10.190.237.41:8000 --no-web --num-request=2500``
+``locust -f locustfile.py -c 1 -r 1 --host=http://localhost:8000 --no-web --num-request=2500``
 
 Keystone configuration
 ----------------------
